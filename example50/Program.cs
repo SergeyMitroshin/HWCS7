@@ -22,7 +22,6 @@ int[,] GetArray(int m, int n, int minValue, int maxValue)
             result[i, j] = rand.Next(minValue, maxValue + 1);
         }
     }
-
     return result;
 }
 
