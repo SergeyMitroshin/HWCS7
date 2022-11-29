@@ -1,6 +1,6 @@
 ﻿/*
-Задача 47. Задайте двумерный массив размером m×n, з
-аполненный случайными вещественными числами.
+Задача 47. Задайте двумерный массив размером m×n, 
+заполненный случайными вещественными числами.
 m = 3, n = 4.
 0,5 7 -2 -0,2
 1 -3,3 8 -9,9
@@ -11,7 +11,6 @@ double[,] GetArray(int m, int n)
 {
     double[,] result = new double[m, n];
     Random rand = new Random();
-
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
@@ -34,7 +33,6 @@ void PrintArray(double[,] inArray)
     }
 }
 
-Console.Clear();
 Console.Clear();
 Console.Write("Введите кол-во строк массива: ");
 int rows = int.Parse(Console.ReadLine()!);
